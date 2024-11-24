@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahr Woodworks</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Bahr Woodworks</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Homepage Section -->
+    <section id="home">
+        <h2>Handcrafted Furniture for Your Home</h2>
+        <p>We specialize in custom wardrobes, cabinets, and drawers that perfectly fit your space and style.</p>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <h3>Custom Wardrobes</h3>
+            <img src="images/wardrobe.jpg" alt="Custom Wardrobe">
+            <p>Beautiful, custom-made wardrobes designed to fit your space.</p>
+        </div>
+        <div class="product">
+            <h3>Wooden Cabinets</h3>
+            <img src="images/cabinet.jpg" alt="Wooden Cabinet">
+            <p>High-quality, durable wooden cabinets to enhance any room.</p>
+        </div>
+    
+        <div class="product">
+            <h3>Custom Drawers</h3>
+            <img src="images/drawer.jpg" alt="Custom Drawer">
+            <p>Our custom drawers are built to maximize space and efficiency. Perfect for any room in your home.</p>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Bahr Woodworks</h2>
+        <p>Bahr Woodworks is a family-owned business specializing in custom wardrobes, cabinets, and drawers. We craft each piece of furniture with care and attention to detail, ensuring that our products not only fit your space but also match your style. Our goal is to provide you with high-quality, long-lasting furniture that transforms your home.</p>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="https://formspree.io/f/mldewwzb" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Bahr Woodworks. All rights reserved.</p>
+    </footer>
+</body>
+</html>
